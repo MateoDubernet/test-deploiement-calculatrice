@@ -3,7 +3,7 @@
 ## Contexte
 
 ### Description
-Ce projet à été réaliser durant mon alternance dans le cadre d'un devoir maison, il s'agit d'une petite application de calculatrice développer en javascript et déployée avec **Docker** et testée automatiquement via **GitHub Actions**.
+Ce projet à été réaliser durant mon alternance dans le cadre d'un devoir maison, il s'agit d'une petite application de calculatrice développer en javascript, déployée avec **Docker** et testée automatiquement via **GitHub Actions**.
 
 ---
 
