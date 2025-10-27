@@ -41,7 +41,14 @@ Avant de lancer l’application avec Docker, s'assurer que :
 
 ## Installation et Lancement
 
-### Option 1 : Lancer en local (sans Docker)
+### 1. Cloner le projet
+```bash
+    git clone <url-du-repo>
+    cd <nom-du-dossier>
+```
+
+### 2. Lancement
+#### Option 1 : Lancer en local (sans Docker)
 Possible d'utiliser un simple serveur web pour tester l’application localement.
 
 ```bash
@@ -50,7 +57,7 @@ Possible d'utiliser un simple serveur web pour tester l’application localement
 ```
 Puis ouvrir : http://localhost:8080 dans le navigateur
 
-### Option 2 : Lancer avec Docker Compose
+#### Option 2 : Lancer avec Docker Compose
 Construir et lancer le conteneur :
 ```bash
     docker-compose up --build
