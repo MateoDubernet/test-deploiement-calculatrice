@@ -1,5 +1,8 @@
 # Test Déploiement – Calculatrice
 
+## Contexte
+
+### Description
 Une petite application de calculatrice déployée avec **Docker** et testée automatiquement via **GitHub Actions**.
 
 ---
@@ -36,15 +39,6 @@ Avant de lancer l’application avec Docker, s'assurer que :
 
 ---
 
-## Fonctionnalités
-
-- Addition, soustraction, multiplication et division (avec gestion de la division par zéro).
-- Interface web simple en **HTML + CSS + JavaScript**.
-- Déploiement avec **Docker** et **Nginx**.
-- Tests automatisés via **GitHub Actions**.
-
----
-
 ## Installation et Lancement
 
 ### Option 1 : Lancer en local (sans Docker)
@@ -78,18 +72,9 @@ Il exécute les étapes suivantes :
 
 ---
 
-## Utilisation de la Calculatrice
-1. Saisir deux nombres dans les champs Nombre 1 et Nombre 2.
+## Fonctionnalités
 
-2. liquer sur un des boutons :
-
-- Additionner
-- Soustraire
-- Multiplier
-- Diviser
-
-3. Le résultat apparaît sous les boutons.
-
----
-
-Ce README explique **comment lancer**, **comment fonctionnent les tests GitHub Actions** et **comment utiliser l’app**.  
+- Addition, soustraction, multiplication et division (avec gestion de la division par zéro).
+- Interface web simple en **HTML + CSS + JavaScript**.
+- Déploiement avec **Docker** et **Nginx**.
+- Tests automatisés via **GitHub Actions**.
