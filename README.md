@@ -43,11 +43,15 @@ Avant de lancer l’application avec Docker, s'assurer que :
 
 ### 1. Cloner le projet
 ```bash
-    git clone <url-du-repo>
-    cd <nom-du-dossier>
+    git clone https://github.com/MateoDubernet/test-deploiement-calculatrice.git
 ```
 
-### 2. Lancement
+### 2. Aller sur le projet
+```bash
+    cd test-deploiement-calculatrice
+```
+
+### 3. Lancement
 #### Option 1 : Lancer en local (sans Docker)
 Possible d'utiliser un simple serveur web pour tester l’application localement.
 
