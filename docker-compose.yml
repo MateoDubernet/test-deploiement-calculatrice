@@ -3,5 +3,5 @@ services:
     build: .
     image: calcul:v1
     hostname: localhost
-    ports: 
+    ports:
       - 8080:80
